@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/drawable/ic_record.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/drawable/round_btn.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/customer_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_audio_recorder.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_menu.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_qr_scanner.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_recorder.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_recorder2.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_recordings.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/layout/fragment_video_open_camer_and_read_video.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VideoRecordingVoiceRecordingQRScanner/app/src/main/res/xml/provider_paths.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

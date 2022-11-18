@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".audioRecorderService.RecorderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/textRecStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/visual"
+            android:visibility="gone"
+            />
+
+        <Chronometer
+            android:id="@+id/timeRec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_margin="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btnRec"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/round_btn"
+            android:src="@drawable/ic_record"
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+
+
+</LinearLayout>

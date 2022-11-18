@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.videorecordingvoicerecordingqrscanner.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_qrScannerFragment"
+            app:destination="@id/qrScannerFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_videoOpenCameraAndReadVideoFragment"
+            app:destination="@id/videoOpenCameraAndReadVideoFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_audioRecorderFragment"
+            app:destination="@id/audioRecorderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qrScannerFragment"
+        android:name="com.example.videorecordingvoicerecordingqrscanner.QRScanner.QrScannerFragment"
+        android:label="fragment_qr_scanner"
+        tools:layout="@layout/fragment_qr_scanner" />
+    <fragment
+        android:id="@+id/videoOpenCameraAndReadVideoFragment"
+        android:name="com.example.videorecordingvoicerecordingqrscanner.videoView.VideoOpenCameraAndReadVideoFragment"
+        android:label="fragment_video_open_camer_and_read_video"
+        tools:layout="@layout/fragment_video_open_camer_and_read_video" />
+    <fragment
+        android:id="@+id/audioRecorderFragment"
+        android:name="com.example.videorecordingvoicerecordingqrscanner.audioRecorderService.AudioRecorderFragment"
+        android:label="fragment_audio_recorder"
+        tools:layout="@layout/fragment_audio_recorder" />
+</navigation>
